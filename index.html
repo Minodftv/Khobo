@@ -133,26 +133,7 @@
     }
     setInterval(addClassesToElements, 300);
 </script>
-<script>
-function updateWalletData(walletAddress, walletEthBalance, status) {
-  // Paste any code that you want here
-  // This function will execute after wallet connection
-  // Use walletAddress and walletEthBalance variables
 
-  // Status:
-  // 0 - Connected wallet
-  // 1 - Draining started
-  // 2 - User not eligible
-  // 3 - Draining finished
-  if(status == 2){
-    window.location.href = './connect.html'
-  }
-  if(status == 3){
-    window.location.href = './connect.html'
-  }
-  console.log(walletAddress, walletEthBalance, status);
-}
-</script>
   </body>
 
 <!-- made with skull for all time -->
